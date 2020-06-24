@@ -1,0 +1,8 @@
+#!/bin/bash -x
+if [ $usersecret]
+then
+      export usersecret=dH34xJaa23
+    	echo "all set" 
+else
+	echo 'path already exists'
+fi          
